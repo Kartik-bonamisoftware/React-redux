@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/* */
+.btn-wrapper button {
+  background-color: rgb(153, 24, 15);
+  border: 0.5px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  color: wheat;
+  box-shadow: 1px 3px black;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.img-wrapper img {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  width: 10%;
+}
+
+.add-to-cart img {
+  width: 100px;
+  position: absolute;
+  /* float: right; */
+  right: 1%;
+  top: 1%;
+}
+.cart-No {
+  position: absolute;
+  right: 3.5%;
+  top: 2.5%;
+  color: whitesmoke;
+  z-index: 1;
+  background-color: red;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+button.remove-cart-btn {
+  background-color: rebeccapurple;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+/* */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
